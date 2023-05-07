@@ -12,6 +12,7 @@
 		F39F7E3F2A0739CF00CC65DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F7E3E2A0739CF00CC65DC /* Assets.xcassets */; };
 		F39F7E422A0739CF00CC65DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F7E412A0739CF00CC65DC /* Preview Assets.xcassets */; };
 		F39F7E4A2A073E0100CC65DC /* RedactedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F7E492A073E0100CC65DC /* RedactedView.swift */; };
+		F39F7E4D2A07403A00CC65DC /* SwiftUIDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F7E4C2A07403A00CC65DC /* SwiftUIDatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F39F7E3E2A0739CF00CC65DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39F7E412A0739CF00CC65DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F39F7E492A073E0100CC65DC /* RedactedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedView.swift; sourceTree = "<group>"; };
+		F39F7E4C2A07403A00CC65DC /* SwiftUIDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				F39F7E3A2A0739CE00CC65DC /* SwiftUIDesignApp.swift */,
 				F39F7E3C2A0739CE00CC65DC /* ContentView.swift */,
 				F39F7E482A073D6200CC65DC /* Redacted */,
+				F39F7E4B2A07401C00CC65DC /* SwiftUIDatePicker */,
 				F39F7E3E2A0739CF00CC65DC /* Assets.xcassets */,
 				F39F7E402A0739CF00CC65DC /* Preview Content */,
 			);
@@ -76,6 +79,14 @@
 				F39F7E492A073E0100CC65DC /* RedactedView.swift */,
 			);
 			path = Redacted;
+			sourceTree = "<group>";
+		};
+		F39F7E4B2A07401C00CC65DC /* SwiftUIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F39F7E4C2A07403A00CC65DC /* SwiftUIDatePickerView.swift */,
+			);
+			path = SwiftUIDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39F7E4D2A07403A00CC65DC /* SwiftUIDatePickerView.swift in Sources */,
 				F39F7E3D2A0739CE00CC65DC /* ContentView.swift in Sources */,
 				F39F7E4A2A073E0100CC65DC /* RedactedView.swift in Sources */,
 				F39F7E3B2A0739CE00CC65DC /* SwiftUIDesignApp.swift in Sources */,
