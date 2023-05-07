@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIDesignApp: App {
     var body: some Scene {
         WindowGroup {
-            SwiftUIDatePickerView()
+            // SwiftUIDatePickerView()
+            EnvironmentValuesView()
         }
     }
 }
